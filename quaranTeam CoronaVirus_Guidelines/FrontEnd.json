@@ -1,0 +1,52 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "quaranteam covid prevention guidelines",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "hello",
+                        "how are you",
+                        "say hi world",
+                        "say hi",
+                        "hi",
+                        "say hello world",
+                        "say hello"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "quaranteamcovidpreventionguidelines",
+                    "slots": [],
+                    "samples": [
+                        "what can i do to stay safe from coronavirus",
+                        "how to stay stafe",
+                        "how to stay away from coronavirus",
+                        "precautionary measures against coronaviru",
+                        "quaranteam covid prevention guidelines",
+                        "WHO guidelines",
+                        "covid guidelines"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
