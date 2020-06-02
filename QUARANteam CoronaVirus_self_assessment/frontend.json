@@ -1,0 +1,390 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "self asses",
+            "modelConfiguration": {
+                "fallbackIntentSensitivity": {
+                    "level": "LOW"
+                }
+            },
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "hello",
+                        "how are you",
+                        "say hi world",
+                        "say hi",
+                        "hi",
+                        "say hello world",
+                        "say hello"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "symptomsIntent",
+                    "slots": [
+                        {
+                            "name": "symptoms",
+                            "type": "SYMPTOMS",
+                            "samples": [
+                                "{symptoms}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "i dont {symptoms}",
+                        "{symptoms} of",
+                        "{symptoms}",
+                        "I have {symptoms}"
+                    ]
+                },
+                {
+                    "name": "diseaseIntent",
+                    "slots": [
+                        {
+                            "name": "disease",
+                            "type": "DISEASE",
+                            "samples": [
+                                "{disease}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "{disease} of",
+                        "i dont have {disease}",
+                        "I have {disease}",
+                        "{disease}"
+                    ]
+                },
+                {
+                    "name": "workIntent",
+                    "slots": [
+                        {
+                            "name": "work",
+                            "type": "WORK",
+                            "samples": [
+                                "{work}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "{work}"
+                    ]
+                },
+                {
+                    "name": "travelIntent",
+                    "slots": [
+                        {
+                            "name": "travel",
+                            "type": "TRAVEL",
+                            "samples": [
+                                "{travel}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "I {travel}",
+                        "{travel}"
+                    ]
+                },
+                {
+                    "name": "startIntent",
+                    "slots": [
+                        {
+                            "name": "start",
+                            "type": "START"
+                        }
+                    ],
+                    "samples": [
+                        "{start}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "SYMPTOMS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "none of these"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Difficulty in breathing",
+                                "synonyms": [
+                                    "breathing problem",
+                                    "breathing"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Fever"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cough",
+                                "synonyms": [
+                                    "cold"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "DISEASE",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "none of the above"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Heart Disease",
+                                "synonyms": [
+                                    "heart attack",
+                                    "heart"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lung disease",
+                                "synonyms": [
+                                    "lung infection",
+                                    "lung"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hypertension",
+                                "synonyms": [
+                                    "tension"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Diabetes"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "WORK",
+                    "values": [
+                        {
+                            "id": "c",
+                            "name": {
+                                "value": "not applicable",
+                                "synonyms": [
+                                    "option c"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "b",
+                            "name": {
+                                "value": "I am health care worker",
+                                "synonyms": [
+                                    "health care",
+                                    "option b"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "a",
+                            "name": {
+                                "value": "recently interacted or lived with someone who has tested positive for COVID nineteen",
+                                "synonyms": [
+                                    "interacted with",
+                                    "lived with",
+                                    "option a"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "TRAVEL",
+                    "values": [
+                        {
+                            "id": "no",
+                            "name": {
+                                "value": "no"
+                            }
+                        },
+                        {
+                            "id": "yes",
+                            "name": {
+                                "value": "yes"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "START",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "begin the test"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "let me take the test"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "begin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "lets go"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "start"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "symptomsIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "symptoms",
+                            "type": "SYMPTOMS",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.510921162091.242017208898"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "diseaseIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "disease",
+                            "type": "DISEASE",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.634584397284.961320891122"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "workIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "work",
+                            "type": "WORK",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.686785588494.503300070268"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "travelIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "travel",
+                            "type": "TRAVEL",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1363871815843.1145721341742"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "delegationStrategy": "ALWAYS"
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Slot.510921162091.242017208898",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "I am sorry I couldn't get you, please try saying one of the options. Are you experiencing any of the following sympotms- Cough, Fever, Difficulty in Breathing, None of the above"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.634584397284.961320891122",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "I am sorry I couldn't get you, please try saying one of the options.Which of the following diseases do you have Diabetes, Hypertension, Lung disease, Heart disease, none of the above"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.686785588494.503300070268",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "I am sorry I couldn't get you, please try saying one of the options.Which of the following apply to you.  a-Recently interacted or lived with someone tested COVID nineteen positive. b- Am a health care worker. c- not applicable"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1363871815843.1145721341742",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "I am sorry I couldn't get you, please try saying yes or no.Have you travelled internationally in last twenty eight to fourty five days"
+                    }
+                ]
+            }
+        ]
+    }
+}
