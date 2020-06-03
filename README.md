@@ -19,4 +19,4 @@ Here are the steps that you can follow to test our skills on our machine:
 7.) Now go to the "CODE" section in your skill and replace your pre-existing file of index.js with (quaranTEAM CoronaVirus_LiveStatus_India) index.js file(which you will find in this particular skill name's GitHub folder) and then click SAVE and DEPLOY.
 8.) Now go to "TEST" section and invoke the skill by saying open +"(INVOCATION NAME YOU GOT FROM POINT 6)".
 9.) You can now see the response of ALEXA and the skills which we have developed.
-# PS: DONT FORGET TO GIVE CREDITS TO 'team-quaranTEAM' IF YOU ARE USING OUR CODE. :)
+# PS: DON'T FORGET TO GIVE CREDITS TO 'team-quaranTEAM' IF YOU ARE USING OUR CODE. :)
