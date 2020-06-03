@@ -6,3 +6,5 @@ team-QUARANTEAM repository for HackNU'2.0.
 3)quaranTEAM Coronavirus_LiveStatus_India: ALEXA will provide you LIVE information of abour CoronaVirus cases in INDIA.This is the authentic information provided by Government Of India.
 4)QUARANteam CoronaVirus_self_assessment: ALEXA will ask you some questions and based on your answers you will get to know if you are safe or not. Basically you will undergo a self-assessment test.
 5) QuaranTEAM CoronaVirus_Pakage_Skill: This is the complete integration of all our above skills into ONE SKILL.
+# DEMO
+You can find DEMO of all the above listed skills here: https://drive.google.com/drive/folders/1RPLZEfmZZQNyhPqds6Yv6LRWvZsgB0sc
