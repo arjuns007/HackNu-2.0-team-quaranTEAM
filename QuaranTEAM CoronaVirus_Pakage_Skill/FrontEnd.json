@@ -1,0 +1,32 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:508915434714:function:53daae66-c97e-4eb7-a9e2-867584478d4b:Release_0"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "en-US": {
+          "description": "Sample Full Description",
+          "examplePhrases": [
+            "Alexa open hello world",
+            "hello",
+            "help"
+          ],
+          "keywords": [],
+          "name": "quaranTEAM CoronaVirus_Skill",
+          "summary": "Sample Short Description"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}
