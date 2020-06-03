@@ -1,0 +1,210 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "quaranteam coronavirus faq's",
+            "modelConfiguration": {
+                "fallbackIntentSensitivity": {
+                    "level": "LOW"
+                }
+            },
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "coronainfo",
+                    "slots": [
+                        {
+                            "name": "corona",
+                            "type": "CORONA"
+                        }
+                    ],
+                    "samples": [
+                        "tell me more about  {corona}",
+                        "what is {corona}",
+                        "tell me about {corona}"
+                    ]
+                },
+                {
+                    "name": "spreading",
+                    "slots": [
+                        {
+                            "name": "corona",
+                            "type": "CORONA"
+                        }
+                    ],
+                    "samples": [
+                        "how does {corona} spread",
+                        "how {corona} spread"
+                    ]
+                },
+                {
+                    "name": "prevent",
+                    "slots": [
+                        {
+                            "name": "corona",
+                            "type": "CORONA"
+                        }
+                    ],
+                    "samples": [
+                        "prevention guidelines  for {corona}",
+                        "how to prevent ourselves from {corona}",
+                        "prevention from {corona}"
+                    ]
+                },
+                {
+                    "name": "air",
+                    "slots": [
+                        {
+                            "name": "corona",
+                            "type": "CORONA"
+                        }
+                    ],
+                    "samples": [
+                        "what are the means through which {corona} can be transmitted",
+                        "how can {corona} be transmitted",
+                        "Can the virus that causes {corona}  be transmitted through the air"
+                    ]
+                },
+                {
+                    "name": "symptoms",
+                    "slots": [
+                        {
+                            "name": "corona",
+                            "type": "CORONA"
+                        }
+                    ],
+                    "samples": [
+                        " symptoms of {corona}",
+                        "tell me some the symptoms of {corona}",
+                        "What are the symptoms of {corona}"
+                    ]
+                },
+                {
+                    "name": "risk",
+                    "slots": [
+                        {
+                            "name": "corona",
+                            "type": "CORONA"
+                        }
+                    ],
+                    "samples": [
+                        "Who is the most likely to get severely ill from {corona}",
+                        "Who is at risk of developing severe illness from {corona}"
+                    ]
+                },
+                {
+                    "name": "antibiotics",
+                    "slots": [
+                        {
+                            "name": "corona",
+                            "type": "CORONA"
+                        }
+                    ],
+                    "samples": [
+                        "do antibiotics help in treating {corona}",
+                        "do antibiotics help in preventing  {corona}",
+                        "do antibiotics help in preventing or treating {corona}",
+                        "Are antibiotics effective in treating {corona}",
+                        "Are antibiotics effective in preventing  {corona}",
+                        "Are antibiotics effective in preventing or treating {corona}"
+                    ]
+                },
+                {
+                    "name": "SARS",
+                    "slots": [
+                        {
+                            "name": "corona",
+                            "type": "CORONA"
+                        }
+                    ],
+                    "samples": [
+                        "Is {corona} the similar to SARS",
+                        "Is {corona} the same as SARS"
+                    ]
+                },
+                {
+                    "name": "mask",
+                    "slots": [
+                        {
+                            "name": "corona",
+                            "type": "CORONA"
+                        }
+                    ],
+                    "samples": [
+                        "Should I wear a mask to protect myself",
+                        "is it necessary to wear a mask to protect myself from {corona}",
+                        "Should I wear a mask to protect myself from {corona}"
+                    ]
+                },
+                {
+                    "name": "incubation",
+                    "slots": [
+                        {
+                            "name": "corona",
+                            "type": "CORONA"
+                        }
+                    ],
+                    "samples": [
+                        "what is the incubation period for {corona}",
+                        "the incubation period for {corona}",
+                        "How long is the incubation period for {corona}"
+                    ]
+                },
+                {
+                    "name": "survive",
+                    "slots": [
+                        {
+                            "name": "corona",
+                            "type": "CORONA"
+                        }
+                    ],
+                    "samples": [
+                        "lifespan of {corona} on surfaces",
+                        "what is the lifespan of {corona} on surfaces",
+                        "How long does the {corona} survive on surfaces"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "CORONA",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "covid nineteen"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "coronavirus"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "corona"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
