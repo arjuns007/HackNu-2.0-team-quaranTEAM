@@ -1,5 +1,5 @@
 # HackNu-2.0-team-quaranTEAM
-team-QUARANTEAM repository for HackNU'2.0.
+DEVELOPED ALEXA SKILLS HELPING USERS IN THE COVID-19 PANDEMIC. TECHNOLOGIES USED: JAVASCRIPT and NodeJS
 # SKILLS
 1)quaranTeam CoronaVirus_Guidelines: ALEXA will give you WHO GUIDELINES on how to prevent CoronaVirus.
 2)quaranTeam CoronaVirus_FAQ's: ALEXA will respond to your FAQ's on CoronaVirus.
