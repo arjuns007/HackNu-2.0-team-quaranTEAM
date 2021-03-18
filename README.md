@@ -1,5 +1,9 @@
 # HackNu-2.0-team-quaranTEAM
-DEVELOPED AMAZON ALEXA SKILLS WHICH HELPS USERS IN THE COVID-19 PANDEMIC. TECHNOLOGIES USED: JAVASCRIPT and NodeJS
+DEVELOPED AMAZON ALEXA SKILLS WHICH HELPS USERS IN THE COVID-19 PANDEMIC. TECHNOLOGIES USED: JAVASCRIPT and JSON
+
+# How does a user access skill content?
+A user accesses content in a skill by asking Alexa to invoke the skill. Alexa is always ready to invoke new skills. When a user says the wake word, "Alexa," and speaks to an Alexa-enabled device, the device streams the speech to the Alexa service in the cloud. Alexa recognizes the speech, determines what the user wants, and then sends a request to invoke the skill that can fulfill the request. The Alexa service handles the speech recognition and natural language processing. Your skill runs as a service on a cloud platform. Alexa communicates with your skill by using a request-response mechanism over the HTTPS interface. When a user invokes an Alexa skill, your skill receives a POST request containing a JSON body. The request body contains the parameters necessary for your skill to understand the request, perform its logic, and then generate a response.
+
 # SKILLS
 1)quaranTeam CoronaVirus_Guidelines: ALEXA will give you WHO GUIDELINES on how to prevent CoronaVirus.
 2)quaranTeam CoronaVirus_FAQ's: ALEXA will respond to your FAQ's on CoronaVirus.
