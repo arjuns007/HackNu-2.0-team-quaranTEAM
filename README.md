@@ -1,7 +1,7 @@
 # HackNu-2.0-team-quaranTEAM
 DEVELOPED AMAZON ALEXA SKILLS WHICH HELPS USERS IN THE COVID-19 PANDEMIC.
 
-Tech Stack Used: Alexa Skills Kit(ASK),JavaScript,JSON and COVID-19 Stats API.
+Tech Stack Used: Alexa Skills Kit(ASK),JavaScript,JSON and COVID-19 LIVE Stats API.
 
 # How does a user access skill content?
 A user accesses content in a skill by asking Alexa to invoke the skill. Alexa is always ready to invoke new skills. When a user says the wake word, "Alexa," and speaks to an Alexa-enabled device, the device streams the speech to the Alexa service in the cloud. Alexa recognizes the speech, determines what the user wants, and then sends a request to invoke the skill that can fulfill the request. The Alexa service handles the speech recognition and natural language processing. The skill runs as a service on a cloud platform. Alexa communicates with the skill by using a request-response mechanism over the HTTPS interface. When a user invokes an Alexa skill, the skill receives a POST request containing a JSON body. The request body contains the parameters necessary for the skill to understand the request, perform its logic, and then generate a response.
